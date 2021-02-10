@@ -310,7 +310,7 @@ def main():
         save_prediction_metrics_cv(cv_metrics, r'dataTest_metrics_CV.txt')
         if indep:
             save_CV_result_binary(ind_res, r'dataTest_IND.txt')
-            plot_roc_cv(ind_res, r'DdataTest_ROC_IND.png', label_column=0,score_column=1)
+            plot_roc_cv(ind_res, r'dataTest_ROC_IND.png', label_column=0,score_column=1)
             plot_prc_CV(ind_res, r'dataTest_PRC_IND.png', label_column=0,score_column=1)
             ind_metrics = calculate_metrics_cv(ind_res, label_column=0, score_column=1, cutoff=0.5, po_label=1)
             save_prediction_metrics_cv(ind_metrics, r'dataTest_metrics_IND.txt')
