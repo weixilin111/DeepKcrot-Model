@@ -1,8 +1,4 @@
 # DeepKcrot-Model
-Deep-Kcrot
+The CNN_WE model used for the construction of DeepKcrot
 
-This CNN model was developed using the training data set of Deep-Kcr (https://github.com/linDing-group/Deep-Kcr). This model can be used to identify the potential CDYL-regulated crotonylome. The packges of Tensorflow-1.13.1 and Keras-2.3.1 are used for the development.
-
-The training data set and indepedent data set can be found in the "Data" folder. 
-
-The code deepkcrot.py can be used to call the CNN model in the "Models" folder or train the model directly to make a prediction.
+This CNN models are developed using the training data set of Deep-Kcr (https://github.com/linDing-group/Deep-Kcr), stored in the "Models" folder. The models are based on the packges of Tensorflow-1.13.1 and Keras-2.3.1. The training data set and indepedent data set derived from Deep-Kcr can be also found in the "Data" folder. The code deepkcrot.py can be used to call the CNN models in the "Models" folder or train the models using the data in the "Data" folder.
